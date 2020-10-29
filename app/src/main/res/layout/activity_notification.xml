@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/bottomDetailmatch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.main.notification">
+    <TextView
+        android:id="@+id/idtvnotifi"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="THÔNG BÁO"
+        android:gravity="center"
+        android:paddingLeft="18dp"
+        android:paddingRight="15dp"
+        android:textSize="36sp"
+        android:textColor="#0EE907"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/idbttouser"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#41413E"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="18dp"
+        android:paddingRight="15dp"
+        android:text="HIỆN TẠI CHƯA CÓ THÔNG BÁO HAY ĐĂNG NHẬP TÀI KHOẢN ĐỂ CÓ THẺ NHẬN THÔNG BÁO"
+        android:textColor="#F7F7F7"
+        android:textSize="16sp"
+        android:textStyle="bold">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="5dp"
+        android:background="#41413E"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="18dp"
+        android:paddingRight="15dp"
+        android:text="HIỆN KHÔNG CÓ THÔNG BÁO NAO"
+        android:textColor="#F7F7F7"
+        android:textSize="16sp"
+        android:textStyle="bold">
+    </TextView>
+</LinearLayout>

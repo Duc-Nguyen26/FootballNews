@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.main.Detailcup">
+    <TextView
+        android:id="@+id/idheaderdetailcup"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#3C7BC4"
+        android:textColor="#EBE5E5"
+        android:textSize="20sp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/idimagedetailcup"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_weight="1">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/iddetaicup"
+        android:layout_width="match_parent"
+        android:layout_height="383dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="26dp"
+        android:layout_weight="4"
+        android:textColor="#070707"
+        android:textSize="19dp"
+        android:textStyle="bold">
+    </TextView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backtofindcup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/botron2"
+            android:src="@drawable/news">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/backmaincup"
+            android:background="@drawable/botron2"
+            android:src="@drawable/main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/backcup"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botron2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back">
+        </ImageButton>
+    </LinearLayout>
+</LinearLayout>

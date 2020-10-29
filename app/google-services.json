@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "528365723120",
+    "firebase_url": "https://football-news-36e6b.firebaseio.com",
+    "project_id": "football-news-36e6b",
+    "storage_bucket": "football-news-36e6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528365723120:android:63e704a067cbd693cd1135",
+        "android_client_info": {
+          "package_name": "com.example.footballnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528365723120-tmjlb4eaql5p6ndfhr4e1bovi2u4otil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.footballnews",
+            "certificate_hash": "ca3ba9feb4462cdf25aaea32056fdf40f26945b9"
+          }
+        },
+        {
+          "client_id": "528365723120-ffajoddb23jbskhgdis71evuhm3ro992.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-ji9p8nGpdWe--y2ZgVdu9H4sEXN4MYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528365723120-ffajoddb23jbskhgdis71evuhm3ro992.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

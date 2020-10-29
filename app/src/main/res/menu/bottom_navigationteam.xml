@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/idTeam1dmdt"
+        android:title="@string/team1"
+        android:icon="@drawable/main">
+    </item>
+    <item
+        android:id="@+id/idTeam2dmdt"
+        android:title="@string/team2"
+        android:icon="@drawable/botron">
+    </item>
+</menu>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bottomNavigation"
+    android:layout_marginTop="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="130dp">
+
+
+    <ImageView
+        android:id="@+id/idteam1lich"
+        android:layout_width="74dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY">
+
+    </ImageView>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="27dp"
+        android:layout_gravity="right"
+        android:background="@color/bottomNavigation"
+        android:text=">>>"
+        android:textColor="#ff0"
+        android:textSize="20sp"
+        android:textStyle="bold">
+    </Button>
+
+    <ImageView
+        android:id="@+id/idteam2lich"
+        android:layout_width="74dp"
+        android:layout_height="65dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="45dp"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/idName1lich"
+        android:layout_width="153dp"
+        android:layout_height="27dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center"
+        android:textColor="#1EF306"
+        android:textSize="16sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/idName2lich"
+        android:layout_width="154dp"
+        android:layout_height="27dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center"
+        android:textColor="#1EF306"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/idLeaguelichday"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="28dp"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/idStagelichday"
+        android:layout_width="132dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/logovs">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/idFTlich"
+        android:layout_width="43dp"
+        android:layout_height="26dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:textColor="#ff0"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/idScore1ichday"
+        android:layout_width="32dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginRight="50dp">
+    </TextView>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/idScore2lichday"
+        android:layout_width="32dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp">
+    </TextView>
+    <TextView
+        android:id="@+id/idtvlichday"
+        android:layout_width="146dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="right|center_vertical"
+        android:textColor="#FF0000"
+        android:textSize="14sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/idtimelichday"
+        android:textStyle="bold"
+        android:layout_width="73dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:textSize="16sp">
+    </TextView>
+</FrameLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.b24h.b24h">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_weight="1"
+        android:background="#2058AA"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="5"
+            android:text="FOOTBALL NEWS"
+            android:textColor="#EEEEE8"
+            android:textSize="26dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <Button
+            android:id="@+id/idfind24"
+            android:layout_width="24dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/find">
+
+        </Button>
+
+        <Button
+            android:id="@+id/idhot24"
+            android:layout_width="24dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/hot">
+
+        </Button>
+    </LinearLayout>
+    <ViewFlipper
+        android:id="@+id/viewflipper24h"
+        android:layout_width="410dp"
+        android:layout_height="239dp"
+        android:layout_weight="1">
+
+    </ViewFlipper>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRE24h"
+        android:layout_width="match_parent"
+        android:layout_height="535dp"
+        android:layout_marginTop="26dp"
+        android:layout_weight="6">
+    </androidx.recyclerview.widget.RecyclerView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/bxh24h"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botron2"
+            android:src="@drawable/bxh">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/lic24h"
+            android:background="@drawable/botron2"
+            android:src="@drawable/lich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/backmain24h"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botron2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/main">
+
+        </ImageButton>
+    </LinearLayout>
+</LinearLayout>

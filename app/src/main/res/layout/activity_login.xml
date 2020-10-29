@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sign"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.User.Login">
+    <Button
+        android:id="@+id/idbacklogin"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="279dp"
+        android:layout_height="556dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:weightSum="12">
+        <ImageView
+            android:layout_width="166dp"
+            android:layout_height="104dp"
+            android:layout_marginLeft="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/user">
+
+        </ImageView>
+
+<!--        <EditText-->
+<!--            android:id="@+id/ednamelogin"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/border"-->
+<!--            android:hint="Tên tài khoản"-->
+<!--            android:paddingLeft="15dp"-->
+<!--            android:textColor="@color/bottomNavigation"-->
+<!--            android:textColorHint="@color/bottomNavigation">-->
+
+<!--        </EditText>-->
+
+        <EditText
+            android:id="@+id/edemaillogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:hint="Email@gmail.com"
+            android:paddingLeft="15dp"
+            android:textColor="@color/bottomNavigation"
+            android:textColorHint="@color/bottomNavigation">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edpasslogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:hint="Mật khẩu"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/bottomNavigation">
+
+        </EditText>
+
+<!--        <EditText-->
+<!--            android:id="@+id/edsexlogin"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/border"-->
+<!--            android:hint="Giới tính"-->
+<!--            android:paddingLeft="15dp"-->
+<!--            android:textColorHint="@color/bottomNavigation">-->
+
+<!--        </EditText>-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edlocationlogin"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/border"-->
+<!--            android:hint="Thành phố"-->
+<!--            android:paddingLeft="15dp"-->
+<!--            android:textColorHint="@color/bottomNavigation">-->
+
+<!--        </EditText>-->
+
+        <Button
+            android:id="@+id/bttouserprofile"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="#F0744E"
+            android:gravity="center"
+            android:text="Đăng nhập"
+            android:textColor="@color/bottomNavigation"
+            android:textStyle="bold">
+
+        </Button>
+
+        <Button
+            android:id="@+id/logintoregister"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:background="#F0744E"
+            android:text="Chưa có tài khoản ! Đăng kí tại đây "
+            android:textColor="@color/bottomNavigation"
+            android:textStyle="bold">
+
+        </Button>
+<!--        <ProgressBar-->
+<!--            android:id="@+id/progressbarlogin"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="5">-->
+<!--        </ProgressBar>-->
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="69dp"-->
+<!--            android:layout_marginTop="7dp"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <Button-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="51dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginRight="30dp"-->
+<!--                android:background="@drawable/botronselect"></Button>-->
+
+<!--            <Button-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="51dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginLeft="25dp"-->
+<!--                android:background="@drawable/botronselect"></Button>-->
+<!--        </FrameLayout>-->
+    </LinearLayout>
+</LinearLayout>

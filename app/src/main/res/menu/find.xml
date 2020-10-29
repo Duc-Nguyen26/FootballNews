@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/idTinhnhanh"
+        android:title="Tin nhanh">
+    </item>
+    <item
+        android:id="@+id/idTinbenle"
+        android:title="Tin bên lề">
+    </item>  <item
+    android:id="@+id/idDoibong"
+    android:title="Đội bóng"
+  >
+</item>
+    <item
+        android:id="@+id/idCup"
+        android:title="Cúp Châu Âu"
+       >
+    </item>  <item
+    android:id="@+id/idbongdavietnam"
+    android:title="Bóng Đá Việt Nam"
+    >
+</item>
+    <item
+        android:id="@+id/idbao24h"
+        android:title="Báo 24h">
+    </item>
+    <item
+    android:id="@+id/idbaobongdaplus"
+    android:title="Báo bóng đá plus">
+</item>
+</group>
+</menu>

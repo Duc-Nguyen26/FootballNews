@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:background="#0A0A0A"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:weightSum="9">
+
+        <TextView
+            android:id="@+id/idHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:textColor="#F4F4F5"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/idAvatar"
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Thời gian:"
+                android:textColor="#D82D2D"
+                android:textSize="12sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/idTimefast"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:textColor="#D82D2D"
+                android:textSize="12sp"
+                android:textStyle="italic">
+            </TextView>
+
+            <TextView
+                android:id="@+id/idLeaguefast"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:textColor="#F00808"
+                android:textSize="12sp"
+                android:textStyle="italic">
+            </TextView>
+
+            <TextView
+                android:layout_width="53dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Nguồn:"
+                android:textColor="#F00808"
+                android:textSize="12sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/idSourcefast"
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="2dp"
+                android:textColor="#F00808"
+                android:textSize="12sp"
+                android:textStyle="italic">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

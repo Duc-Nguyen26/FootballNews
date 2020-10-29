@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="9"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.main.lich">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/bottomDetailmatch">
+    <TextView
+        android:id="@+id/idtvlich"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="LỊCH THI ĐẤU"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:textColor="#EEEEE8"
+        android:background="@color/bottomDetailmatch">
+    </TextView>
+    <Button
+        android:id="@+id/idbtppmenulich"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/popupmenu">
+    </Button>
+</FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@color/bottomNavigation"
+        android:id="@+id/idREselectlich"
+     android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="66dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/TabLayoutlich"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        app:tabBackground="@color/bottomDetailmatch"
+        app:tabIndicatorColor="#27E211"
+        app:tabIndicatorHeight="3dp"
+        app:tabIndicatorAnimationDuration="@android:integer/config_mediumAnimTime"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#EC0923"
+        app:tabTextColor="#F2F2F3">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpagerlich"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="75dp"
+        android:background="#0A0A0A">
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#0E0E0D"
+    android:fillViewport="true"
+    tools:context=".activity.chart.england">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="81dp">
+    <TextView
+        android:id="@+id/idtvengland"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:gravity="center"
+        android:layout_marginRight="65dp"
+        android:text="Ngoại Hạng Anh (VÒNG 22)"
+        android:textColor="#D11D1D"
+        android:textSize="26sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <Button
+        android:id="@+id/idbtbackengland"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="bottom|right"
+        android:background="#0E0E0D"
+        android:text="See More >>>"
+        android:textColor="#F3EDEE"
+        android:textSize="10sp">
+    </Button>
+</FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="623dp"
+        android:background="@drawable/anh">
+    </ImageView>
+    <TextView
+        android:layout_marginTop="70dp"
+        android:text="NHẬN ĐỊNH CHUYÊN GIA ;"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#24C02B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:text="+ Liverpool vấn độc tôn trong quá trình đi tìm chức vô địch đầu tiên sau 12 năm chờ đợi
+với khoảng cách  14 điểm so với đội xếp thứ 2 là Manchester City và 16 điểm với đội xếp thứ 3 là Leicester City.
+Lữ đoàn đỏ vẫn thể hiện sự vượt trội so với phần còn lại của giải đấu."
+        android:textSize="15sp"
+        android:textColor="#F8F8F8"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="392dp"
+        android:background="@drawable/liver">
+    </ImageView>
+    <TextView
+        android:text="+ Với cuộc đua top 4 thì sau chiến thắng trước Newcastle MU đã vương lên vị trí thứ 5 và kém vị trí được dự Cup C1 là
+Chelsea đội bóng đang xếp thứ 4 với khoảng cách 5 điểm xếp ngay sau Mu lần lượt  là Shelfeid United , Wolverhamton và TotteHam có
+có khoảng cách với MU lần lượt là 2,3,4 điểm. Cuộc đua tới top 4 vô cùng suýt sao và hấp dẫn"
+        android:textSize="15sp"
+        android:textColor="#F3F1F1"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ImageView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/amu"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </ImageView>
+    <TextView
+        android:text="+ 3 đội cuối bảng hiện tại là AstonVilla
+Bounermounth và Norwich City riêng Norwich chỉ có được 14 điểm sau 22 vòng đấu và gần như chắc 1 suất xuống hạng thì các đội thuộc nhóm đèn đỏ và sát đèn
+đỏ cũng chỉ cách nhau từ 3 tới 5 điểm hứa hẹn những vòng đấu còn lại của mùa giải sẽ vô cùng gay cấn không chỉ với những đội xếp trên bảng xếp hạng
+mà ngay cả cuộc đua của top dưới cũng vô cùng hấp dẫn và đáng xem."
+        android:textSize="15sp"
+        android:textColor="#FCFBFB"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ImageView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/anorwich"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </ImageView>
+</LinearLayout>
+    </ScrollView>

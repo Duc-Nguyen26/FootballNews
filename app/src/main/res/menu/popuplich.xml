@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<item
+    android:id="@+id/idengland"
+    android:title="@string/england">
+</item>
+    <item
+        android:id="@+id/idspain"
+        android:title="@string/spain">
+    </item>
+    <item
+        android:id="@+id/idfrance"
+        android:title="@string/france">
+    </item>
+    <item
+        android:id="@+id/idgermarny"
+        android:title="@string/germarny">
+    </item>
+    <item
+        android:id="@+id/iditalia"
+        android:title="@string/italia">
+    </item>
+    <item
+        android:id="@+id/idcup"
+        android:title="CUP">
+    </item>
+    <item
+        android:id="@+id/idVietnam"
+        android:title="Bóng Đá VIệt Nam">
+    </item>
+</menu>

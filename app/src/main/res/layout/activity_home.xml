@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.main.Home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bottomNavigation"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/idln"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="#0F0F0F"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <TextView
+                android:id="@+id/idFBN"
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                android:paddingTop="3dp"
+                android:text="FOOTBALL NEWS"
+                android:textColor="#F30F0F"
+                android:textSize="30dp"
+                android:textStyle="italic|bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/idfind"
+                android:layout_width="28dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/search">
+
+            </Button>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/botronresultmatch">
+
+            <TextView
+                android:id="@+id/idtvResultMatch"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:gravity="center"
+                android:text="KẾT QUẢ TRẬN ĐẤU"
+                android:textColor="#29C729"
+                android:textSize="16sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/idReMatch"
+                android:layout_width="385dp"
+                android:layout_height="120dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/bottomNavigation"
+                android:orientation="horizontal">
+            </androidx.recyclerview.widget.RecyclerView>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/botronresultmatch">
+
+            <TextView
+                android:id="@+id/idtvtinvang"
+                android:layout_width="370dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="25dp"
+                android:gravity="center_vertical"
+                android:text="TIN BÊN LỀ"
+                android:textColor="#29C729"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/idtinvang"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp">
+            </androidx.recyclerview.widget.RecyclerView>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/botronresultmatch">
+
+            <TextView
+                android:id="@+id/idtvfast"
+                android:layout_width="370dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="25dp"
+                android:gravity="center_vertical"
+                android:text="TIN LIÊN QUAN"
+                android:textStyle="bold"
+                android:textColor="#29C729"
+                android:textSize="16sp">
+            </TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/idRE"
+                android:layout_width="fill_parent"
+                android:layout_height="1280dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="5dp">
+            </androidx.recyclerview.widget.RecyclerView>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="46dp"
+            android:background="@drawable/botronresultmatch"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/idtvcupchauau"
+                android:layout_width="266dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:gravity="center_vertical"
+                android:text="TỔNG HỢP KẾT QUẢ"
+                android:textColor="#29C729"
+                android:textSize="16sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="5dp"
+                android:background="#313130"
+                android:text="MORE"
+                android:textColor="#29C729"
+                android:textSize="16sp"
+                android:textStyle="bold">
+            </Button>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/idcupchauau"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp">
+            </androidx.recyclerview.widget.RecyclerView>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

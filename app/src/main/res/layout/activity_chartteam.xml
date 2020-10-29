@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@color/bottomNavigation"
+    android:layout_height="fill_parent"
+    tools:context=".DetailMatch.Chartteam">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Bảng xếp hạng sau trận đấu"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </TextView>
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/idimageafterchart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/idviewafterchart"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+    </TextView>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/ivlinechart1"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/idviewline1"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+    </TextView>
+    <ImageView
+        android:id="@+id/ivlinechart2"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/idviewline2"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+    </TextView>
+</LinearLayout>
+</ScrollView>

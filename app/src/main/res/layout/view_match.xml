@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/botronresultmatch"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_width="260dp"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/idTeam1"
+        android:layout_width="40dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/idTeam2"
+        android:layout_width="37dp"
+        android:layout_height="34dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/idName1"
+        android:layout_width="86dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#F3F3EF"
+        android:textSize="10sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/idName2"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:textColor="#F3F3EF"
+        android:textSize="10sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/idStage"
+        android:layout_width="86dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:textColor="#F3F3F1"
+        android:textSize="10sp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+    <TextView
+        android:id="@+id/idroudmatch"
+        android:layout_width="74dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:layout_marginRight="38dp"
+        android:textColor="#F1DA0E"
+        android:textSize="10sp"
+        android:textStyle="bold|italic">
+    </TextView>
+    <TextView
+        android:id="@+id/idFulltime"
+        android:layout_width="74dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:textColor="#F1DA0E"
+        android:textSize="10sp"
+        android:textStyle="bold|italic">
+    </TextView>
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/logovs">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/idScore2"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="68dp"
+        android:gravity="center"
+        android:textColor="#F0EAEA"
+        android:textSize="19sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/idScore1"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#F7F7F2"
+        android:textSize="19sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/idLeagueMatch"
+        android:layout_width="90dp"
+        android:layout_height="24dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="3dp"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:textColor="#F5F5F2"
+        android:textSize="10sp"></TextView>
+
+    <TextView
+        android:id="@+id/idTimematch"
+        android:layout_width="102dp"
+        android:layout_height="26dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="7dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textColor="#9C3535"
+        android:textSize="10sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <Button
+        android:id="@+id/idSeemore"
+        android:layout_width="62dp"
+        android:layout_height="17dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="3dp"
+        android:background="#0F0F0F"
+        android:text="See More >>"
+        android:textColor="#F0F0EB"
+        android:textSize="8sp"
+        android:textStyle="bold">
+
+    </Button>
+</FrameLayout>

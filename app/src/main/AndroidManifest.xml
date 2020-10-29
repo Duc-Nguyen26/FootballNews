@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.footballnews">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activity.main.welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.token">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.User.Resetpassword" />
+        <activity android:name=".DetailMatch.Lineup2" />
+        <activity android:name=".DetailMatch.Lineup1" />
+        <!-- <activity android:name=".activity.User.Login" /> -->
+        <activity android:name=".activity.lich.week" />
+        <activity android:name=".activity.lich.Day" />
+        <!-- <activity android:name=".activity.User.Register" /> -->
+        <activity android:name=".activity.Detailleague.DetailEngland" />
+        <activity android:name=".DetailMatch.Chartteam" />
+        <activity android:name=".DetailMatch.Infodetail" />
+        <activity android:name=".DetailMatch.Lineup" />
+        <activity android:name=".DetailMatch.Sumary" />
+        <activity android:name=".activity.main.DetailMatch" />
+
+        <activity android:name=".activity.MainActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+
+
+<!--        <meta-data-->
+<!--            android:name="firebase_messaging_auto_init_enabled"-->
+<!--            android:value="false"/>-->
+<!--        <meta-data-->
+<!--            android:name="firebase_analytics_collection_enabled"-->
+<!--            android:value="false"/>-->
+        <activity android:name=".activity.main.Home" />
+        <activity android:name=".activity.User.User" />
+        <activity android:name=".activity.main.Detailcup" />
+        <activity android:name=".activity.main.Cup" />
+        <activity android:name=".activity.chart.france" />
+        <activity android:name=".activity.chart.germany" />
+        <activity android:name=".activity.chart.spain" />
+        <activity android:name=".activity.chart.italia" />
+        <activity android:name=".activity.chart.wordcupasian" />
+        <activity android:name=".activity.chart.england" />
+        <activity android:name=".activity.main.orther" />
+        <activity android:name=".activity.main.hot" />
+        <activity android:name=".activity.main.notification" />
+        <activity android:name=".activity.main.lich" />
+        <activity android:name=".activity.main.Detailvn" />
+        <activity android:name=".activity.main.VN" />
+        <activity android:name=".activity.main.bxh" />
+        <activity android:name=".activity.main.Detailbdplus" />
+        <activity android:name=".activity.main.bdplus" />
+        <activity android:name=".activity.main.Detail24h" />
+        <activity android:name=".activity.b24h.b24h" />
+        <activity android:name=".activity.main.find">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name=".activity.main.Detailfast" />
+    </application>
+
+</manifest>

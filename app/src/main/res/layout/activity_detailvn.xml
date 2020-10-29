@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.main.Detailvn">
+    <TextView
+        android:id="@+id/headervn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="#3C7BC4"
+        android:textColor="#EBE5E5"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagevn"
+            android:layout_width="match_parent"
+            android:layout_height="218dp"
+            android:layout_weight="1">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Detailvn"
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="26dp"
+            android:layout_weight="4"
+            android:scrollbarStyle="insideInset"
+            android:textColor="#0F0F0F"
+            android:textSize="26sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backfindvn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/botron2"
+            android:src="@drawable/news">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/backmainvn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botron2"
+            android:src="@drawable/main">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/backVN"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botron2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back">
+        </ImageButton>
+
+    </LinearLayout>
+</LinearLayout>

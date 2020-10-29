@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.main.Detailbdplus">
+
+    <TextView
+        android:id="@+id/idheaderdetailbdplus"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_weight="1"
+        android:background="#3C7BC4"
+        android:textColor="#EBE5E5"
+        android:textSize="16sp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/idimagedetailplus"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:layout_weight="1">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/iddetailbdplus"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="26dp"
+        android:layout_weight="4"
+        android:textColor="#090908"
+        android:textSize="26sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backfindbdp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botron2"
+            android:src="@drawable/news">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/backmainbdp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botron2"
+            android:src="@drawable/main">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/backbdplus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botron2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back">
+
+        </ImageButton>
+    </LinearLayout>
+</LinearLayout>

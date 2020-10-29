@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">footballnews</string>
+    <string name="Detail">Detail</string>
+    <string name="home"> Trang Chủ</string>
+    <string name="chart">Bảng Xếp Hạng</string>
+    <string name="Day">Lịch Thi Đấu</string>
+    <string name="Notifi">Thông Báo</string>
+    <string name="user">Tài Khoản</string>
+
+
+    <string name="sumary">Diễn biến</string>
+    <string name="lineup">Đội hình</string>
+    <string name="infomation">Thông số</string>
+    <string name="chartmatch">Bảng xếp hạng</string>
+    <string name="matchstart">Match start</string>
+    <string name="orthernew">Tin bên lề</string>
+
+    <string name="team1">Team 1</string>
+    <string name="team2">Team 2</string>
+
+    <string name="england">Anh</string>
+    <string name="spain">La liga</string>
+    <string name="germarny">Bundesliga</string>
+    <string name="france">Ligue 1</string>
+    <string name="italia">Seria A</string>
+
+    <string name="lineup1">Lineup1</string>
+    <string name="lineup2">Lineup2</string>
+</resources>

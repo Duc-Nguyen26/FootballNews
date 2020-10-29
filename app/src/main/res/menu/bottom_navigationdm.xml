@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/iddienbien"
+        android:title="@string/sumary">
+    </item>
+    <item
+        android:id="@+id/iddoihinh"
+        android:title="@string/lineup">
+    </item>
+    <item
+        android:id="@+id/idthongso"
+        android:title="@string/infomation">
+    </item>
+    <item
+        android:title="@string/chartmatch"
+        android:id="@+id/idbangxephang">
+    </item>
+</menu>

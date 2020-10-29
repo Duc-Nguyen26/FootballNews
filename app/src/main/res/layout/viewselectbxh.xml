@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="3dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginRight="2dp"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:background="@drawable/botronselect">
+
+    <ImageView
+        android:id="@+id/idibselectbxh"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY">
+    </ImageView>
+</LinearLayout>

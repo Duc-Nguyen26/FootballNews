@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/idHome"
+        android:title="@string/home"
+        android:icon="@drawable/main">
+    </item>
+    <item
+        android:id="@+id/idChart"
+        android:title="@string/chart"
+        android:icon="@drawable/bxh"
+        >
+    </item>
+    <item
+        android:id="@+id/idDay"
+        android:title="@string/Day"
+        android:icon="@drawable/lich">
+    </item>
+    <item
+        android:title="@string/Notifi"
+        android:id="@+id/idNotifi"
+        android:icon="@drawable/notifi">
+    </item>
+    <item
+        android:id="@+id/idUser"
+        android:title="@string/user"
+        android:icon="@drawable/user">
+    </item>
+</menu>

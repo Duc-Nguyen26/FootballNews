@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/lineup1"
+        android:title="@string/lineup1"
+        android:icon="@drawable/cham">
+    </item>
+    <item
+        android:id="@+id/lineup2"
+        android:title="@string/lineup2"
+        android:icon="@drawable/cham">
+    </item>
+</menu>

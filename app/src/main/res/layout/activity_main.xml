@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.MainActivity">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<FrameLayout
+
+    android:id="@+id/idFramelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/idNavigationbottom"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+       app:backgroundTint="#0C0C0C"
+        app:itemRippleColor="@color/colorRed"
+        android:foreground="?attr/selectableItemBackground"
+        app:itemBackground="@color/bottomNavigation"
+        app:itemIconTint="#DF405E"
+        app:itemTextColor="#31AC33"
+        app:menu="@menu/bottom_navigation">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

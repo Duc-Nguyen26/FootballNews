@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/bottomNavigation"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".DetailMatch.Sumary">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<FrameLayout
+    android:id="@+id/idparamsumary"
+    android:layout_width="match_parent"
+    android:layout_height="310dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="26dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/idvdsumary"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_height="200dp">
+        </Button>
+</FrameLayout>
+        <FrameLayout
+            android:id="@+id/idtitlesumary"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/idivTeam11"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/idplayscore1"
+                android:layout_width="348dp"
+                android:layout_height="50dp"
+                android:paddingLeft="3dp"
+               android:gravity="center_vertical"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#FF0000"
+                android:textSize="15sp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/idivTeam22"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="75dp"
+                android:scaleType="fitXY">
+
+            </ImageView>
+
+            <TextView
+                android:paddingLeft="3dp"
+                android:gravity="center_vertical"
+                android:id="@+id/idplayscore2"
+                android:layout_width="348dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="68dp"
+                android:textColor="#FF0000"
+                android:textSize="15sp">
+
+            </TextView>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/idtvsumary1"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:paddingLeft="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+        </TextView>
+        <ImageView
+            android:id="@+id/ivsumary"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="280dp">
+        </ImageView>
+        <FrameLayout
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/idtimesumary"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:textColor="#11FF00"
+                android:textSize="15sp"
+                android:textStyle="italic">
+            </TextView>
+
+            <TextView
+                android:layout_gravity="right"
+                android:id="@+id/idsourcesumary"
+                android:layout_width="240dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="#11FF00"
+                android:textSize="15sp">
+            </TextView>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/idtvsumary2"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:paddingLeft="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>

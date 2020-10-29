@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bottomNavigation"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.lich.Day">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="TODAY"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1EF706"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </TextView>
+    <EditText
+        android:id="@+id/idsearchlich"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+    </EditText>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRELichday"
+        android:background="@color/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:layout_marginTop="3dp"
+        android:text="TOMORROW"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1EF706"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idREtomorrow"
+        android:background="@color/bottomNavigation"
+        android:layout_marginBottom="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp">
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
+</ScrollView>

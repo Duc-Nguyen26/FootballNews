@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:layout_marginLeft="7dp"
+    android:background="#080908"
+    android:layout_width="300dp"
+    android:layout_height="250dp">
+<TextView
+    android:id="@+id/idTittleRelated"
+    android:textSize="16sp"
+    android:textColor="#F1F2F5"
+    android:textStyle="bold"
+    android:layout_weight="1"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+</TextView>
+
+    <ImageView
+        android:id="@+id/idimageRelated"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <TextView
+            android:id="@+id/idSoureRelated"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="#EB0909"
+            android:textSize="10sp"
+            android:textStyle="italic">
+        </TextView>
+
+        <TextView
+            android:id="@+id/idTimeRelated"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#EB0909"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textStyle="italic">
+        </TextView>
+
+        <TextView
+            android:id="@+id/idLeagueRelated"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textColor="#EB0909"
+            android:textSize="10sp"
+            android:textStyle="italic">
+        </TextView>
+
+        <Button
+            android:id="@+id/idbtRelated"
+            android:background="#080908"
+            android:layout_width="40dp"
+            android:text="See More >>"
+            android:gravity="center"
+            android:textSize="8sp"
+            android:textColor="#2D69E0"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

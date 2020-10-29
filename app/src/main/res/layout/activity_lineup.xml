@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:layout_marginTop="46dp"
+    android:background="@color/bottomNavigation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMatch.Lineup">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vplineup"
+        android:background="@color/bottomNavigation"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tblineup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        app:tabBackground="@color/bottomNavigation"
+        app:tabGravity="center"
+        app:tabIndicatorColor="#34EE0A"
+        app:tabIndicatorHeight="3dp"
+        app:tabMode="auto"
+        app:tabSelectedTextColor="#EC0923"
+        app:tabTextColor="@color/white">
+    </com.google.android.material.tabs.TabLayout>
+</LinearLayout>

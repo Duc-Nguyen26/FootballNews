@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/sign"
+    android:layout_height="match_parent"
+    tools:context=".activity.User.Register">
+
+    <Button
+        android:id="@+id/idbackuser2"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back">
+    </Button>
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="14"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/bttomainregister"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="FOOTBALL NEWS"
+            android:textColor="#6BF509"
+            android:textSize="26sp"
+            android:textStyle="bold">
+        </Button>
+        <EditText
+            android:id="@+id/ednameregister"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:hint="Tên tài khoản"
+            android:paddingLeft="15dp"
+            android:textColor="@color/bottomNavigation"
+            android:textColorHint="@color/bottomNavigation">
+        </EditText>
+        <EditText
+            android:id="@+id/edemailregister"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:hint="Email@gmail.com"
+            android:paddingLeft="15dp"
+            android:textColor="@color/bottomNavigation"
+            android:textColorHint="@color/bottomNavigation">
+        </EditText>
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/edpassregister"
+            android:textColorHint="@color/bottomNavigation"
+            android:hint="Mật khẩu"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+        </EditText>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/edsexregister"
+            android:textColorHint="@color/bottomNavigation"
+            android:hint="Giới tính"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+        </EditText>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/edlocationregister"
+            android:textColorHint="@color/bottomNavigation"
+            android:hint="Thành phố"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+        </EditText>
+        <Button
+            android:layout_marginTop="15dp"
+            android:text="Đăng kí"
+            android:id="@+id/btregister"
+            android:gravity="center"
+            android:textColor="@color/bottomNavigation"
+            android:textStyle="bold"
+            android:background="#F0744E"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+        </Button>
+        <Button
+            android:id="@+id/bttologin"
+            android:layout_marginTop="12dp"
+            android:background="#F0744E"
+            android:text="Đã có tài khoản ! Đăng nhập tại đây "
+            android:textStyle="bold"
+            android:textColor="@color/bottomNavigation"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+        </Button>
+<!--        <Button-->
+<!--            android:id="@+id/btforgotregister"-->
+<!--            android:text="Forgot Password ?"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            tools:ignore="HardcodedText">-->
+<!--        </Button>-->
+<!--        <Button-->
+<!--            android:id="@+id/tologin"-->
+<!--            android:text="Already Register.Login now ?"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            tools:ignore="HardcodedText">-->
+<!--        </Button>-->
+        <ProgressBar
+            android:id="@+id/progressregister"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+        </ProgressBar>
+    </LinearLayout>
+</LinearLayout>
